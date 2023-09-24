@@ -7,7 +7,7 @@ aspectRatio: '8.5/11'
 ---
 
 <script setup>
-  import ResumePage from '/Users/leondreamed/repos/resume/pages/resume-page.vue'
+  import ResumePage from '~/pages/resume-page.vue'
 </script>
 
 <ResumePage />

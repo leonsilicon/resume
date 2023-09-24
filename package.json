@@ -1,17 +1,19 @@
 {
-  "name": "resume",
-  "private": true,
-  "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export --output dist/resume.pdf --per-slide"
-  },
-  "dependencies": {
+	"name": "resume",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "slidev build",
+		"dev": "slidev --open",
+		"export": "mkdir -p dist && slidev export --output dist/resume.pdf --per-slide"
+	},
+	"dependencies": {
 		"@heroicons/vue": "^2.0.18",
-    "@slidev/cli": "^0.43.5",
-    "vue3-simple-icons": "^9.10.0"
-  },
+		"@slidev/cli": "^0.43.5",
+		"vue3-simple-icons": "^9.10.0"
+	},
 	"devDependencies": {
+		"desm": "^1.3.0",
 		"playwright-chromium": "^1.38.1"
 	}
 }
