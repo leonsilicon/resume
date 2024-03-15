@@ -14,7 +14,7 @@ import { isFormal } from '../utils/formal';
 			<ExperienceListing
 				imageSrc="/images/tunnel-logo.jpg"
 				:headline="
-					isFormal ? 'Co-founder & CTO @ Tunnel' : 'co-founder & cto @ tunnel'
+					isFormal ? 'Co-founder @ Tunnel' : 'co-founder @ tunnel'
 				"
 				:dateString="isFormal ? 'April 2023 - Present' : 'apr 2023 - present'"
 				:tagline="`${
@@ -95,7 +95,7 @@ import { isFormal } from '../utils/formal';
 			<ExperienceListing
 				image-src="/images/tabulo-logo.jpg"
 				:headline="
-					isFormal ? 'Co-founder & CTO @ Tabulo' : 'co-founder & cto @ tabulo'
+					isFormal ? 'Co-founder @ Tabulo' : 'co-founder @ tabulo'
 				"
 				:dateString="
 					isFormal ? 'April 2020 - September 2021' : 'apr 2020 - sep 2021'
