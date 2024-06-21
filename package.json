@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"@heroicons/vue": "^2.0.18",
-		"@slidev/cli": "^0.43.5",
+		"@slidev/cli": "^0.49.11",
 		"vue3-simple-icons": "^9.10.0"
 	},
 	"devDependencies": {
