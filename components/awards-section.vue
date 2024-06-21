@@ -6,7 +6,7 @@ import AwardListing from './award-listing.vue';
 const hackathonLinks = [
 	{
 		text: isFormal ? 'Projects' : 'portfolio',
-		href: 'https://devpost.com/leondreamed'
+		href: 'https://devpost.com/leonsilicon'
 	}
 ];
 
@@ -44,11 +44,11 @@ const typingLinks = [
 	},
 	{
 		text: isFormal ? 'Monkeytype' : 'monkeytype',
-		href: 'https://monkeytype.com/profile/leondreamed'
+		href: 'https://monkeytype.com/profile/leonsilicon'
 	},
 	{
 		text: isFormal ? 'TypeRacer' : 'typeracer',
-		href: 'https://data.typeracer.com/pit/profile?user=leondreamed'
+		href: 'https://data.typeracer.com/pit/profile?user=leonsilicon'
 	}
 ];
 </script>

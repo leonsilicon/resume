@@ -35,4 +35,9 @@ import FooterSection from '../components/footer-section.vue';
 	font-family: 'Monaco';
 	src: url('fonts/monaco-regular.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: 'Consolas';
+	src: url('fonts/consolas-regular.ttf') format('truetype');
+}
 </style>
