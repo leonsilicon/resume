@@ -5,25 +5,25 @@ import { isFormal } from '#utils/formal.ts';
 
 const neoLinks = [
 	{
-		text: isFormal ? 'Website' : 'website',
+		text: isFormal.value ? 'Website' : 'website',
 		href: 'https://neo.com/accelerator'
 	}
 ];
 
 const founderUniversityLinks = [
 	{
-		text: isFormal ? 'Website' : 'website',
+		text: isFormal.value ? 'Website' : 'website',
 		href: 'https://founder.university'
 	},
 	{
-		text: isFormal ? 'Live Pitch' : 'live pitch',
+		text: isFormal.value ? 'Live Pitch' : 'live pitch',
 		href: 'https://www.youtube.com/watch?v=ZYN0xdP4ORQ&t=1549s'
 	}
 ];
 
 const replitLinks = [
 	{
-		text: isFormal ? 'Announcement' : 'announcement',
+		text: isFormal.value ? 'Announcement' : 'announcement',
 		href: 'https://blog.replit.com/RV-teams'
 	}
 ];

@@ -5,35 +5,35 @@ import AwardListing from './award-listing.vue';
 
 const hackathonLinks = [
 	{
-		text: isFormal ? 'Projects' : 'portfolio',
+		text: isFormal.value ? 'Projects' : 'portfolio',
 		href: 'https://devpost.com/leonsilicon'
 	}
 ];
 
 const htnLinks = [
 	{
-		text: isFormal ? 'Website' : 'website',
+		text: isFormal.value ? 'Website' : 'website',
 		href: 'https://hackthenorth.com'
 	}
 ];
 
 const ulhacksLinks = [
 	{
-		text: isFormal ? 'Website' : 'website',
+		text: isFormal.value ? 'Website' : 'website',
 		href: 'https://ulhacks.com'
 	}
 ];
 
 const cacLinks = [
 	{
-		text: isFormal ? 'Website' : 'website',
+		text: isFormal.value ? 'Website' : 'website',
 		href: 'https://www.congressionalappchallenge.us/20-md08'
 	}
 ];
 
 const nebulaChallengeLinks = [
 	{
-		text: isFormal ? 'Website' : 'website',
+		text: isFormal.value ? 'Website' : 'website',
 		href: 'https://www.nebulachallenge.org/2020-nebula-challenge-summary'
 	}
 ];
@@ -43,11 +43,11 @@ const typingLinks = [
 		text: '~160 wpm'
 	},
 	{
-		text: isFormal ? 'Monkeytype' : 'monkeytype',
+		text: isFormal.value ? 'Monkeytype' : 'monkeytype',
 		href: 'https://monkeytype.com/profile/leonsilicon'
 	},
 	{
-		text: isFormal ? 'TypeRacer' : 'typeracer',
+		text: isFormal.value ? 'TypeRacer' : 'typeracer',
 		href: 'https://data.typeracer.com/pit/profile?user=leonsilicon'
 	}
 ];
