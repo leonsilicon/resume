@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isFormal } from '../utils/formal.js';
+import { isFormal } from '#utils/formal.ts';
 
 const { name, description } = defineProps<{
 	name: string;

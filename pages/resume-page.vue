@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HeaderSection from '../components/header-section.vue';
-import MembershipsSection from '../components/memberships-section.vue';
-import ExperiencesSection from '../components/experiences-section.vue';
-import AwardsSection from '../components/awards-section.vue';
-import FooterSection from '../components/footer-section.vue';
+import HeaderSection from '#components/header-section.vue';
+import MembershipsSection from '#components/memberships-section.vue';
+import ExperiencesSection from '#components/experiences-section.vue';
+import AwardsSection from '#components/awards-section.vue';
+import FooterSection from '#components/footer-section.vue';
 </script>
 
 <template>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import MembershipListing from './membership-listing.vue';
 import SectionTitle from './section-title.vue';
-import { isFormal } from '../utils/formal.js';
+import { isFormal } from '#utils/formal.ts';
 
 const neoLinks = [
 	{

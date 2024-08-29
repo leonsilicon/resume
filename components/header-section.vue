@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isFormal } from '../utils/formal.js';
+import { isFormal } from '#utils/formal.ts';
 </script>
 
 <template>
@@ -10,8 +10,8 @@ import { isFormal } from '../utils/formal.js';
 		<span>
 			{{
 				isFormal
-					? "Delusional Hacker-Creator / Co-founder @ Tunnel (Neo '23)"
-					: "delusional hacker-creator / co-founder @ tunnel (neo '23)"
+					? "Developer/Creator, Co-founder @ Tunnel (Neo '23)"
+					: "developer/creator, co-founder @ tunnel (neo '23)"
 			}}
 		</span>
 	</div>

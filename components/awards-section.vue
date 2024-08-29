@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isFormal } from '../utils/formal.js';
+import { isFormal } from '#utils/formal.ts';
 import SectionTitle from './section-title.vue';
 import AwardListing from './award-listing.vue';
 

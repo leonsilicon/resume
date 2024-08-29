@@ -2,6 +2,11 @@
 	"name": "resume",
 	"type": "module",
 	"private": true,
+	"imports": {
+		"#components/*": "./components/*",
+		"#pages/*": "./pages/*",
+		"#utils/*": "./utils/*"
+	},
 	"scripts": {
 		"build": "slidev build",
 		"dev": "slidev --open",
