@@ -39,7 +39,7 @@ const replitLinks = [
 		<div class="flex flex-col gap-y-2">
 			<MembershipListing
 				:name="isFormal ? 'Neo Accelerator \'23' : 'neo accelerator \'23'"
-				imageSrc="/images/neo-logo.jpg"
+				imageSrc="/assets/images/neo-logo.jpg"
 				:links="neoLinks"
 				:description="
 					isFormal
@@ -53,7 +53,7 @@ const replitLinks = [
 						? 'Founder.University Cohort 3'
 						: 'founder.university cohort 3'
 				"
-				imageSrc="/images/founder-university-logo.jpg"
+				imageSrc="/assets/images/founder-university-logo.jpg"
 				:links="founderUniversityLinks"
 				:description="
 					isFormal
@@ -63,7 +63,7 @@ const replitLinks = [
 			/>
 			<MembershipListing
 				:name="isFormal ? 'Replit Ventures 2022' : 'replit ventures 2022'"
-				imageSrc="/images/replit-logo.jpg"
+				imageSrc="/assets/images/replit-logo.jpg"
 				:links="replitLinks"
 				:description="
 					isFormal

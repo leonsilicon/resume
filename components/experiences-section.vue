@@ -12,7 +12,7 @@ import { isFormal } from '../utils/formal';
 		/>
 		<div class="flex flex-col gap-y-6">
 			<ExperienceListing
-				imageSrc="/images/tunnel-logo.jpg"
+				imageSrc="/assets/images/tunnel-logo.jpg"
 				:headline="
 					isFormal ? 'Co-founder @ Tunnel' : 'co-founder @ tunnel'
 				"
@@ -58,7 +58,7 @@ import { isFormal } from '../utils/formal';
 				</template>
 			</ExperienceListing>
 			<ExperienceListing
-				imageSrc="/images/dialect-logo.jpg"
+				imageSrc="/assets/images/dialect-logo.jpg"
 				:headline="isFormal ? 'Co-founder @ Dialect' : 'co-founder @ dialect'"
 				:dateString="isFormal ? 'May 2022 - April 2023' : 'may 2022 - apr 2023'"
 				:tagline="`${
@@ -93,7 +93,7 @@ import { isFormal } from '../utils/formal';
 				</template>
 			</ExperienceListing>
 			<ExperienceListing
-				image-src="/images/tabulo-logo.jpg"
+				image-src="/assets/images/tabulo-logo.jpg"
 				:headline="
 					isFormal ? 'Co-founder @ Tabulo' : 'co-founder @ tabulo'
 				"

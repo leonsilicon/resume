@@ -43,7 +43,7 @@ import { LinkIcon } from '@heroicons/vue/24/solid';
 				<span v-if="isFormal"><LinkIcon class="h-4 w-4 text-black" /></span>
 				<img
 					v-else
-					src="/images/lion-profile.png"
+					src="/assets/images/lion-profile.png"
 					width="16"
 					height="16"
 					class="rounded-md"
