@@ -1,7 +1,7 @@
 ---
 theme: none
-title: Leon Si
 presenter: false
+title: Leon Si
 canvasWidth: 850
 aspectRatio: '8.5/11'
 ---
