@@ -4,7 +4,7 @@ import { isFormal } from '#utils/formal.ts';
 
 <template>
 	<div class="flex flex-col items-center font-['Consolas']">
-		<div class="text-3xl font-bold">
+		<div class="text-3xl font-bold" @click="isFormal = !isFormal">
 			{{ isFormal ? 'Leon Si' : 'leon si' }}
 		</div>
 		<span>
