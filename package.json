@@ -10,7 +10,7 @@
 	"scripts": {
 		"build": "slidev build --out=.build",
 		"dev": "slidev --open",
-		"export": "mkdir -p .build-pdf && slidev export --output dist/resume.pdf --per-slide"
+		"export": "mkdir -p .build-pdf && slidev export --output .build/resume.pdf --per-slide"
 	},
 	"dependencies": {
 		"@heroicons/vue": "^2.0.18",
