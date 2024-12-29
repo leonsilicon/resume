@@ -7,26 +7,23 @@ import FooterSection from '#components/footer-section.vue';
 </script>
 
 <template>
-	<div class="flex flex-col h-full">
-		<div class="px-4 py-8">
-			<HeaderSection />
+	<div class="flex flex-col m-[0.5in] absolute inset-0">
+        <div class='mb-4'>
+            <HeaderSection />
+        </div>
 
-			<div class="flex flex-row gap-x-10 px-4 mt-10">
-				<ExperiencesSection />
+        <div class="flex flex-row gap-x-10">
+            <ExperiencesSection />
 
-				<div class="flex flex-col gap-y-4 w-3xl">
-					<MembershipsSection />
-					<div class="flex-1"></div>
-					<AwardsSection />
-				</div>
-			</div>
-		</div>
+            <div class="flex flex-col gap-y-4 w-3xl">
+                <MembershipsSection />
+                <div class="flex-1"></div>
+                <AwardsSection />
+            </div>
+        </div>
 
 		<div class="flex-1"></div>
-
-		<div class='p-4'>
-			<FooterSection />
-		</div>
+        <FooterSection />
 	</div>
 </template>
 

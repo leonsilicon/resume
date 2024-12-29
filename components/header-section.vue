@@ -10,8 +10,8 @@ import { isFormal } from '#utils/formal.ts';
 		<span>
 			{{
 				isFormal
-					? "Developer/Creator, Co-founder @ Tunnel (Neo '23)"
-					: "developer/creator, co-founder @ tunnel (neo '23)"
+					? "Prev. Co-Founder & CTO @ Tunnel (Neo '23) | Influencer (@leonsilicon)"
+					: "prev. co-founder & cto @ tunnel (neo '23) | influencer (@leonsilicon)"
 			}}
 		</span>
 	</div>

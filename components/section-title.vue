@@ -8,7 +8,7 @@ const { emoji, title } = defineProps<{
 </script>
 
 <template>
-	<h1 class="text-2xl mb-4 flex flex-row">
+	<h1 class="text-2xl mb-2 flex flex-row">
 		<div v-if="!isFormal" class='mr-1.5'>{{ emoji }}</div>
 		<span class="font-black tracking-wide">{{ title }}</span>
 	</h1>

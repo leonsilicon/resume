@@ -3,6 +3,25 @@ import { isFormal } from '#utils/formal.ts';
 import SectionTitle from './section-title.vue';
 import AwardListing from './award-listing.vue';
 
+const influencerLinks = [
+    {
+        text: isFormal.value ? 'Instagram' : 'instagram',
+        href: 'https://instagram.com/leonsilicon'
+	},
+	{
+		text: isFormal.value ? 'TikTok' : 'tiktok',
+		href: 'https://tiktok.com/@leonsilicon'
+	},
+	{
+		text: isFormal.value ? 'YouTube' : 'youtube',
+		href: 'https://youtube.com/@leonsilicon'
+	},
+	{
+		text: isFormal.value ? 'X (formerly Twitter)' : 'x (formerly twitter)',
+		href: 'https://x.com/leonsilicon'
+	}
+];
+
 const hackathonLinks = [
 	{
 		text: isFormal.value ? 'Projects' : 'portfolio',
@@ -60,6 +79,14 @@ const typingLinks = [
 			:title="isFormal ? 'Awards & Activities' : 'awards & activities'"
 		/>
 		<div class="flex flex-col gap-y-4">
+			<AwardListing
+				:title="
+					isFormal
+						? 'Social Media Influencer w/ 350,000+ combined followers'
+						: 'social media influencer w/ 350,000+ combined followers'
+				"
+				:links="influencerLinks"
+			/>
 			<AwardListing
 				:title="
 					isFormal ? '17-time Hackathon Winner' : '17-time hackathon winner'

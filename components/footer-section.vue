@@ -5,7 +5,7 @@ import { LinkIcon } from '@heroicons/vue/24/solid';
 </script>
 
 <template>
-	<div class="grid grid-cols-[auto,auto] font-['Monaco'] text-sm">
+	<div class="grid grid-cols-[auto,auto] font-['Monaco'] text-[0.8rem]">
 		<div class="col-start-1 row-start-1 flex flex-row">
 			leon@leonsilicon.com ~<span class="text-gray-200">/</span>Canada/Toronto
 			<span class="text-gray-200">&nbsp;% open</span>
